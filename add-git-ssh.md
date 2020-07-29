@@ -1,11 +1,11 @@
-#Commands
+# Commands
 
-#Step 1: Generate Your SSH Key
+# Step 1: Generate Your SSH Key
 Make sure Git Bash is open. To generate an SSH key use the following command. Be sure to replace the fake email with your real email address.
 
 $ ssh-keygen -t rsa -b 4096 -C "example@example.com"
 
-#Step 2: Use the Key
+# Step 2: Use the Key
 Now that the key is generated, we need to put it to use. Start by starting the ssh agent.
 
 $ eval $(ssh-agent -s)
@@ -14,7 +14,7 @@ Then add the key we just generated. If you selected a different path than the de
 
 $ ssh-add ~/.ssh/id_rsa
 
-#Step 3: Add the SSH Key on GitHub
+# Step 3: Add the SSH Key on GitHub
 Now that we have the ssh key setup on our computer, we need to set it up on the GitHub website. First, we will use a command to copy it to our clipboard and then paste it on to GitHub.
 
 $ clip < ~/.ssh/id_rsa.pub
