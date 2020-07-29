@@ -1,19 +1,19 @@
 # create a new repository on the command line
 
-> \echo "# Project Name" >> README.md
+> \$ echo "# Project Name" >> README.md
 
-> \git init
+> \$ git init
 
-> \git add README.md
+> \$ git add README.md
 
-> \git commit -m "first commit"
+> \$ git commit -m "first commit"
 
-> \git remote add origin git@github.com:username/project-name.git
+> \$ git remote add origin git@github.com:username/project-name.git
 
-> \git push -u origin master
+> \$ git push -u origin master
 
 # push an existing repository from the command line
 
-> \git remote add origin git@github.com:username/project-name.git
+> \$ git remote add origin git@github.com:username/project-name.git
 
-> \git push -u origin master
+> \$ git push -u origin master
